@@ -6,12 +6,12 @@
 
 # 📚 Progress
 
-- [ ] PostgreSQL Installation
-- [ ] psql Commands
-- [ ] Database Operations
-- [ ] Data Types
-- [ ] Table Operations
-- [ ] Constraints
+- [ ✅ ] PostgreSQL Installation
+- [ ✅ ] psql Commands
+- [ ✅ ] Database Operations
+- [ ✅ ] Data Types
+- [ ✅ ] Table Operations
+- [ ✅ ] Constraints
 - [ ] CRUD Operations
 - [ ] Filtering & Sorting
 - [ ] Aggregate Functions
