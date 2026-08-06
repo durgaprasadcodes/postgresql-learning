@@ -28,3 +28,17 @@ SET NAME = 'Varun (Kodi Guddu)'
 WHERE ID = 8 AND NAME = 'VARUN (Kodi Guddu)';
 
 SELECT * FROM USERS;
+
+UPDATE USERS
+SET  VILLAGE = 'Eluru'
+WHERE VILLAGE ILIKE 'EAST%' ; -- FOR THIS PROGRAMM ONLY FOR REALWORLD I WILL USE " ILIKE 'East Yadavalli' "
+
+UPDATE USERS
+SET EMAIL = REPLACE(EMAIL ,'@gmail.com','%@company.com')
+WHERE EMAIL ILIKE '%@gmail.com';
+
+
+UPDATE USERS
+SET COMPANY_NAME = concat('Mr.',name);
+
+SELECT * FROM USERS;
